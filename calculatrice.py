@@ -12,6 +12,6 @@ class Calculator:
     def multiply(self):
         return self.a * self.b
  
-calc = Calculator(3, 5)
+calc = Calculator(3, 5) # Création de l'instance Calculator
 print(calc.add())
 print(calc.multiply())
